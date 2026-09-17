@@ -52,9 +52,9 @@ export default function ProfileMenu({ onOpenModal, onNavigate }) {
         id="profile-dropdown"
         className={`${
           open ? "" : "hidden"
-        } absolute right-0 mt-2 w-56 bg-white border border-t-0 border-gray-200 rounded-xl shadow-xl py-2 z-50 animate-in fade-in duration-150`}
+        } absolute right-0 mt-2 w-56 bg-white border border-t-0 border-gray-000 rounded-xl shadow-xl py-2 z-50 animate-in fade-in duration-150`}
       >
-        <div className="px-4 py-2 border-b border-gray-100">
+        <div className="px-4 py-2 border-b border-gray-000">
           <p className="text-xs text-gray-500">Welcome</p>
           <p className="text-sm font-bold truncate">Alex Morgan</p>
         </div>
