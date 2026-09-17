@@ -20,7 +20,7 @@ export default function BurgerMenu({ open, onClose, onNavigate, onOpenModal }) {
     >
       <div className="absolute right-0 top-0 h-full w-80 bg-white shadow-2xl p-6 flex flex-col justify-between transform transition-transform duration-300">
         <div>
-          <div className="flex items-center justify-between pb-6 border-b border-gray-200">
+          <div className="flex items-center justify-between pb-6">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-full theme-olive flex items-center justify-center text-white text-sm">
                 <i className="fa-solid fa-seedling"></i>
@@ -41,7 +41,7 @@ export default function BurgerMenu({ open, onClose, onNavigate, onOpenModal }) {
             <li><a href="#" onClick={logout} className="block py-2 text-red-600 hover:text-red-700 transition">Logout</a></li>
           </ul>
         </div>
-        <div className="pt-6 border-t border-gray-200 text-xs text-gray-500 text-center">
+        <div>
           &copy; 2026 Happi Funding Platform
         </div>
       </div>

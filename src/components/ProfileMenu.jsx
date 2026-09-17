@@ -52,7 +52,7 @@ export default function ProfileMenu({ onOpenModal, onNavigate }) {
         id="profile-dropdown"
         className={`${
           open ? "" : "hidden"
-        } absolute right-0 mt-2 w-56 bg-white border border-gray-200 rounded-xl shadow-xl py-2 z-50 animate-in fade-in duration-150`}
+        } absolute right-0 mt-2 w-56 bg-white border border-t-0 border-gray-200 rounded-xl shadow-xl py-2 z-50 animate-in fade-in duration-150`}
       >
         <div className="px-4 py-2 border-b border-gray-100">
           <p className="text-xs text-gray-500">Welcome</p>
@@ -76,7 +76,6 @@ export default function ProfileMenu({ onOpenModal, onNavigate }) {
         <a href="#" onClick={openModal("Liked Campaigns")} className="block px-4 py-2.5 text-sm hover:bg-gray-50 flex items-center space-x-3">
           <i className="fa-regular fa-heart w-5 theme-olive-text"></i><span>Liked campaigns</span>
         </a>
-        <div className="border-t border-gray-100 my-1"></div>
         <a href="#" onClick={openModal("Settings")} className="block px-4 py-2.5 text-sm hover:bg-gray-50 flex items-center space-x-3">
           <i className="fa-solid fa-gear w-5 theme-olive-text"></i><span>Settings</span>
         </a>
@@ -86,7 +85,6 @@ export default function ProfileMenu({ onOpenModal, onNavigate }) {
         <a href="#" onClick={go("help")} className="block px-4 py-2.5 text-sm hover:bg-gray-50 flex items-center space-x-3">
           <i className="fa-regular fa-circle-question w-5 theme-olive-text"></i><span>Help</span>
         </a>
-        <div className="border-t border-gray-100 my-1"></div>
         <a href="#" onClick={openModal("Logout")} className="block px-4 py-2.5 text-sm text-red-600 hover:bg-red-50 flex items-center space-x-3">
           <i className="fa-solid fa-arrow-right-from-bracket w-5"></i><span>Logout</span>
         </a>
